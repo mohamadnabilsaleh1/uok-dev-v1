@@ -136,7 +136,7 @@ const Answer = ({ question, questionId, authorId }: Props) => {
               <FormItem className="flex w-full flex-col gap-3">
                 <FormControl className="mt-3.5">
                   <Editor
-                    apiKey={process.env.NEXT_PUBLIC_TINY_EDITOR_API_KEY}
+                    apiKey={"yvr1chhx5n8u6c6hs698oceqsnvl7wpxudf1fahj3x7sjlpf"}
                     onInit={(evt, editor) => {
                       // @ts-ignore
                       editorRef.current = editor;
